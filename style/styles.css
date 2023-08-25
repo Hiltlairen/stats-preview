@@ -39,16 +39,23 @@ body{
 
     display: flex;
 }
+#imagen-prc{
+    background-image: url(/images/image-header-desktop.jpg);
+
+}
 .imagen-grande{
-    background: var(--Soft-violet);
+    
+    /*background-color: var(--Soft-violet);*/
     opacity: 0.4;
+    
     order: 2;
     inset: 0;
-    content: "";
+    background-size: cover;
     position: relative;
     width: 100%;
-}
     
+}
+
 
 .tabla-inf{
     margin-top: 60px;
